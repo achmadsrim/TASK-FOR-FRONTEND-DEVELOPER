@@ -9,6 +9,7 @@ function App() {
     repos: null,
   });
 
+  //Fetch Data 
   useEffect(() => {
     setAppState({ loading: true });
     const apiUrl = `https://api.github.com/users/achmadsrim/repos`;
